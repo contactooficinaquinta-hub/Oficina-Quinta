@@ -1,0 +1,31 @@
+body {
+  background-color: #0f0f10;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  opacity: 0.6;
+}
+
+input, textarea {
+  width: 300px;
+  padding: 8px;
+  margin-top: 4px;
+  background: #1a1a1d;
+  border: 1px solid #333;
+  color: white;
+}
+
+button {
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
