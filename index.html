@@ -1,23 +1,42 @@
-# Oficina-Quinta
-Sistema operativo central para la gestiòn estràtegica de proyectos, colaboraciones y comunicaciones de Quintaesencia, El Ojo y la Semilla y LaSazón.
-MED-COL
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Empresa — Contacto</title>
+  <meta charset="UTF-8">
+  <title>Oficina Quinta</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Contacto</h1>
-  <!-- Reemplaza la URL abajo por tu endpoint de Formspree -->
-  <form action="https://formspree.io/f/XXXXXXXX" method="POST">
-    <label>Nombre<br><input name="name" required></label><br><br>
-    <label>Correo<br><input name="email" type="email" required></label><br><br>
-    <label>Mensaje<br><textarea name="message" rows="5" required></textarea></label><br><br>
-    <!-- Opcional: Formspree usa _replyto para respuestas -->
-    <input type="hidden" name="_replyto" value="">
-    <button type="submit">Enviar</button>
-  </form>
+
+<header>
+  <h1>Oficina Quinta</h1>
+  <p>Archivo visual / Plataforma creativa</p>
+</header>
+
+<main class="grid">
+
+  <a href="pages/proyecto1.html" class="card">
+    <img src="img/proyecto1.jpg" alt="Proyecto 1">
+    <div class="card-info">
+      <h2>Proyecto 1</h2>
+      <p>Ilustración / Archivo</p>
+    </div>
+  </a>
+
+  <a href="pages/proyecto2.html" class="card">
+    <img src="img/proyecto2.jpg" alt="Proyecto 2">
+    <div class="card-info">
+      <h2>Proyecto 2</h2>
+      <p>Territorio / Investigación</p>
+    </div>
+  </a>
+
+</main>
+
+<footer>
+  <p>© Oficina Quinta</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
